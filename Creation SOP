@@ -1,1 +1,9 @@
 Creation of the .ova file for system deployment
+
+To begin, create a VM using a Windows 10 ISO. Begin with standard default installation.
+
+You will now need to enable scripts in order to run the following script to remove bloatware.
+To do so, open PowerShell with administrative privelages.
+Type command "get-executionpolicy" and hit enter
+Then, "set-executionpolicy remotesigned" and enter "y"
+This has now enabled scripts.
