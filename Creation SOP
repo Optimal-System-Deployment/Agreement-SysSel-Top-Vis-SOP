@@ -8,13 +8,13 @@ To do so, open PowerShell with administrative privelages
 Type command "get-executionpolicy" and hit enter
 Then, "set-executionpolicy remotesigned" and enter "y"
 This has now enabled scripts
-The script for removing bloatware is in this link: https://github.com/Optimal-System-Deployment/Agreement-SysSel-Top-Vis-SOP/blob/main/RemoveBloatware.ps1
+The script for removing bloatware is in this link: https://github.com/Optimal-System-Deployment/Scripts/blob/main/RemoveBloatware.ps1
 Open PowerShell ISE and go to file, new. Copy the script from the link and then save as a .ps1 file. (Note the file location)
 Execute the script via PowerShell in administrative mode by typing .\*filelocation*
 
 #Optimize Boot Time
 Now you will need to run the script the optimize the boot time of the system
-The script for this is located in this link: https://github.com/Optimal-System-Deployment/Agreement-SysSel-Top-Vis-SOP/blob/main/OptimizeBootTime.ps1
+The script for this is located in this link: https://github.com/Optimal-System-Deployment/Scripts/blob/main/OptimizeBootTime.ps1
 Open PowerShell ISE and go to file, new. Copy the script from the link and then save as a .ps1 file. (Note the file location)
 Execute the script via PowerShell in administrative mode by typing .\*filelocation*
 
