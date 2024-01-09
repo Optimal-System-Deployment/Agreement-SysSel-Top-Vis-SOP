@@ -1,8 +1,11 @@
 Creation of the .ova file for system deployment
 
+Goal: Successfully create a Windows 10 image for mass deployment.
+
 To begin, create a VM using a Windows 10 ISO. Begin with standard default installation.
 
 #Removing Bloatware
+
 You will now need to enable scripts in order to run the following script to remove bloatware
 To do so, open PowerShell with administrative privelages
 Type command "get-executionpolicy" and hit enter
@@ -13,10 +16,15 @@ Open PowerShell ISE and go to file, new. Copy the script from the link and then 
 Execute the script via PowerShell in administrative mode by typing .\*filelocation*
 
 #Optimize Boot Time
+
 Now you will need to run the script the optimize the boot time of the system
 The script for this is located in this link: https://github.com/Optimal-System-Deployment/Scripts/blob/main/OptimizeBootTime.ps1
 Open PowerShell ISE and go to file, new. Copy the script from the link and then save as a .ps1 file. (Note the file location)
 Execute the script via PowerShell in administrative mode by typing .\*filelocation*
 
+#Install Google Chrome, Visual Studio Code, and Thunderbird
 
-
+You will now run the script to install the client's applications
+This script can be found at https://github.com/Optimal-System-Deployment/Scripts/blob/main/ApplicationInstall.ps1
+Open PowerShell ISE and go to file, new. Copy the script from the link and then save as a .ps1 file. (Note the file location)
+Execute the script via PowerShell in administrative mode by typing .\*filelocation*
